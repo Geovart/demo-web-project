@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.uax.devops.AppTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.uax.devops.AppTest" time="0.109" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/jenkins/workspace/DeployDemoWebProject/target/test-classes:/home/jenkins/workspace/DeployDemoWebProject/target/classes:/home/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/test-classes:/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/classes:/home/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -11,9 +11,9 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/jenkins/workspace/DeployDemoWebProject/target/surefire/surefirebooter11853073233049083363.jar /home/jenkins/workspace/DeployDemoWebProject/target/surefire 2026-04-07T17-17-52_401-jvmRun1 surefire17079331873052604517tmp surefire_011246010274219073309tmp"/>
+    <property name="sun.java.command" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/surefire/surefirebooter-20260418123433991_3.jar /home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/surefire 2026-04-18T12-34-33_779-jvmRun1 surefire-20260418123433991_1tmp surefire_0-20260418123433991_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/jenkins/workspace/DeployDemoWebProject/target/test-classes:/home/jenkins/workspace/DeployDemoWebProject/target/classes:/home/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/test-classes:/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/classes:/home/jenkins/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/jenkins"/>
     <property name="user.language" value="en"/>
@@ -21,12 +21,12 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/jenkins/workspace/DeployDemoWebProject"/>
+    <property name="basedir" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/jenkins/workspace/DeployDemoWebProject/target/surefire/surefirebooter11853073233049083363.jar"/>
+    <property name="surefire.real.class.path" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory/target/surefire/surefirebooter-20260418123433991_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.13+11-Ubuntu-2ubuntu122.04"/>
     <property name="user.name" value="jenkins"/>
@@ -39,7 +39,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="17.0.13"/>
-    <property name="user.dir" value="/home/jenkins/workspace/DeployDemoWebProject"/>
+    <property name="user.dir" value="/home/jenkins/workspace/DeployDemoWebProjectArtifactory"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -51,5 +51,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="org.uax.devops.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithTrue" classname="org.uax.devops.AppTest" time="0.003"/>
 </testsuite>
